@@ -1,3 +1,1 @@
-<div align="center"> <img alt="Logo" width="100" src="./img/logo.png"> </a> <br> <br>
-<hr>
-![kook-card](https://socialify.git.ci/beijin1949/kook-card/image?description=1&font=Bitter&forks=1&language=1&name=1&owner=1&pattern=Brick%20Wall&stargazers=1&theme=Auto)
+<img src="https://socialify.git.ci/beijin1949/kook-card/image?description=1&font=Bitter&forks=1&language=1&logo=https%3A%2F%2Fimg.kookapp.cn%2Fassets%2F2024-10%2F12%2FgQFnDlBhTp0ep0j0.png&name=1&pattern=Brick%20Wall&stargazers=1&theme=Auto" alt="kook-card" width="640" height="320" />
