@@ -5,6 +5,8 @@
 
 2.现成的消息回复，活跃排行榜，个人信息面板开箱即用
 
+3.灵活定制，支持生成JSON格式KMD，以用于各类场景
+
 ### 当前支持的语言
 ![Static Badge](https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=Python&logoColor=white)
 
@@ -32,10 +34,9 @@ test/ # 测试文件示例
 ```commandline
 pip install kcard
 ```
-然后在任意文件中引入模块
+然后在任意文件中引入模块（当然你也可以选择按需引入，无需全部引入全部模块）
 ```python
-from kcard import *
+import kcard
 ```
-当然你也可以选择按需引入，无需全部引入全部模块
 
-以下是khl.
+由于构建器是基于khl.py的卡片构建器构建，如果你没有使用这个SDK，你可以使用 `json.dump()`来获取json格式的kmd，以用于其他SDK的卡片发送
