@@ -1,0 +1,16 @@
+[
+  {
+    "text": "指南",
+    "link": "/usage/start/base",
+    "activeMatch": "/usage/"
+  },
+  {
+    "text": "组件库",
+    "link": "/hello/",
+    "activeMatch": "/hello/"
+  },
+  {
+    "text": "贡献模板",
+    "link": "https://rspress.dev/api/index.html"
+  }
+]

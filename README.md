@@ -44,3 +44,21 @@ import kcard
 ### 在线文档
 
 等待补充...
+
+### 在线文档建设
+
+拷贝本项目下document，进入后执行
+
+```commandline
+npm install
+```
+
+或者你可以使用你喜欢的包管理器进行管理
+
+安装完后运行
+
+```commandline
+npm dev
+```
+
+进行二次开发，开发后提交pr到本仓库即可！感谢您对开源做出的贡献！
