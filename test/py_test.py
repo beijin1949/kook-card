@@ -45,5 +45,16 @@ async def logo_text():
     channel = await bot.client.fetch_public_channel(bot_config['test_channel'])
     await channel.send(kcard.logo_text(logo_url="https://s21.ax1x.com/2024/10/21/pAabljS.png",content="kook card是一款非常方便的卡片模板生成工具，如果你是不想写开发者的开发者，就可以来试试！"))
 
+@bot.command("tips_test")
+async def tips_text():
+    channel = await bot.client.fetch_public_channel(bot_config['test_channel'])
+    await channel.send(kcard.tips_text(logo_url="https://img.kookapp.cn/avatars/2024-10/19/cpu28439Ym06j06j.png",content="kook card是一款非常方便的卡片模板生成工具"))
+
+@bot.command("test_welcome")
+async def welcome_text():
+    channel = await bot.client.fetch_public_channel(bot_config['test_channel'])
+    await channel.send(kcard.welcome_text(logo_url="https://img.kookapp.cn/avatars/2024-10/19/cpu28439Ym06j06j.png",content="kook card是一款非常方便的卡片模板生成工具",desc1="内容1",desc2="内容2",bg_url="https://img.kookapp.cn/assets/2024-10/01/egTCeTdjae0kc05d.png"))
+
+
 print("机器人正在运行")
 bot.run()
