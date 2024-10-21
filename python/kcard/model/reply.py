@@ -1,16 +1,15 @@
-import json
-
 from khl.card import *
 from kcard import base
 from typing import Literal
 
 
 def reply_status(text: str, status: Literal["success", "warning", "error"] = "success",
-                 show_divider: bool = True) -> CardMessage:
+                 show_divider: bool = False) -> CardMessage:
     """
     状态消息卡片，用于状态提示，代码块版本请用 reply_status_code
     :param text: 提示的内容
     :param status: 状态值,默认success，此处应当有填对应的状态值，如果需要用到自定义的颜色，请使用base函数
+    :param show_divider: 是否在有标题的情况下显示分割线
     :return: CardMessage
     """
     color_map = {"success": "#67C23A", "warning": "#E5A23C", "error": "#F46C6C"}
@@ -23,7 +22,8 @@ def reply_tips(text: str, color: str = "#409EFF", show_divider: bool = True) -> 
     """
     提示框，默认是浅蓝色边框，支持自定义颜色
     :param text: 提示的内容
-    :param status: 状态值，此处应当有填对应的状态值，
+    :param color: 边框颜色，默认浅蓝色(#409EFF)
+    :param show_divider: 状态值，此处应当有填对应的状态值，
     :return: CardMessage
     """
     return base(text=text, color=color, title="💡 Tips", show_divider=show_divider)

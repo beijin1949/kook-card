@@ -35,11 +35,15 @@ async def test_tips():
     channel = await bot.client.fetch_public_channel(bot_config['test_channel'])
     await channel.send(kcard.reply_tips(text="提示"))
 
-@bot.command("test_status_code_1")
+@bot.command("test_status_code")
 async def test_status_code_1():
     channel = await bot.client.fetch_public_channel(bot_config['test_channel'])
     await channel.send(kcard.reply_status_code(text="状态测试-代码块版本:成功", status="success"))
 
+@bot.command("logo_text")
+async def logo_text():
+    channel = await bot.client.fetch_public_channel(bot_config['test_channel'])
+    await channel.send(kcard.logo_text(logo_url="https://s21.ax1x.com/2024/10/21/pAabljS.png",content="kook card是一款非常方便的卡片模板生成工具，如果你是不想写开发者的开发者，就可以来试试！"))
 
 print("机器人正在运行")
 bot.run()
