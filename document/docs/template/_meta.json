@@ -1,0 +1,22 @@
+[
+  {
+    "type": "file",
+    "name": "index",
+    "label": "模板目录"
+  },
+  {
+    "type": "dir",
+    "name": "base",
+    "label": "基础"
+  },
+  {
+    "type": "dir",
+    "name": "reply",
+    "label": "回复"
+  },
+  {
+    "type": "dir",
+    "name": "logo",
+    "label": "品牌"
+  }
+]

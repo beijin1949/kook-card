@@ -1,0 +1,19 @@
+import { Tab, Tabs } from 'rspress/theme';
+import Table from '../../components/Tables'
+
+# 品牌卡片
+在每一个卡片最顶部将会携带LOGO
+
+### 效果预览
+![logo_text](../../public/template/logo_text.jpg)
+
+:::tip
+LOGO图片建议高度为40px-60px，如果你使用了太大的图片会很占位置！
+:::
+### 调用函数
+函数名
+`logo_text`
+
+### API 函数参数说明
+
+<Table rowData={[['logo_url','string','是','-','LOGO的外部链接地址'],['content','string','是','-','卡片内传入的内容'],['color','string','否','"#409EFF"','卡片颜色，填写颜色16进制值']]}></Table>

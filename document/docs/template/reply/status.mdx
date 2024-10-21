@@ -1,0 +1,30 @@
+import { Tab, Tabs } from 'rspress/theme';
+import Table from '../../components/Tables'
+
+# 状态卡片
+专门用来反馈机器人请求状态的卡片
+
+### 效果预览
+当 `status` 值在不同状态时会呈现不同的效果
+    <Tabs>
+      <Tab label="成功">
+        当status值为"success"时
+        <img src={require('../../public/template/status1.jpg')} alt="status1" />
+      </Tab>
+      <Tab label="警告">
+        当status值为"warning"时
+        <img src={require('../../public/template/status2.jpg')} alt="status2" />
+      </Tab>
+      <Tab label="失败">
+        当status值为"error"时
+        <img src={require('../../public/template/status3.jpg')} alt="status3" />
+      </Tab>
+    </Tabs>
+
+### 调用函数
+函数名
+`reply_status`
+
+### API 函数参数说明
+
+<Table rowData={[['text','string','是','-','卡片内传入的内容'],['status','"success" | "warning" | "error"','否','"success"','卡片颜色状态'],['show_divider','boolean','否','False','是否显示分割线']]}></Table>

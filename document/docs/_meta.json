@@ -5,9 +5,9 @@
     "activeMatch": "/usage/"
   },
   {
-    "text": "组件库",
-    "link": "/hello/",
-    "activeMatch": "/hello/"
+    "text": "模板库",
+    "link": "/template/index",
+    "activeMatch": "/template/"
   },
   {
     "text": "贡献模板",
