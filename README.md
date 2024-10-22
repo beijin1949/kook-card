@@ -42,8 +42,7 @@ import kcard
 由于构建器是基于khl.py的卡片构建器构建，如果你没有使用这个SDK，你可以使用 `json.dumps()`来获取json格式的kmd，以用于其他SDK的卡片发送
 
 ### 在线文档
-
-等待补充...
+https://kookcard.fra1.zeabur.app/
 
 ### 在线文档建设
 

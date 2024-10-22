@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/
+      link: /usage/start/base
     - theme: alt
       text: GitHub
       link: https://github.com/beijin1949/kook-card
